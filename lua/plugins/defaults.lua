@@ -6,12 +6,6 @@ wk.register({
     q = { ":TodoQuickFix", "Quick Fix" },
     t = { ":TodoTelescope", "Telescope" },
   },
-  G = {
-    name = "Grep",
-    d = { ":GrepRoot ", "Root directory" },
-    r = { ":Replace", "Replace" },
-    s = { "Grep ", "Text" },
-  },
   H = {
     name = "Harpoon",
     a = { "<cmd>lua require('harpoon.mark').add_file()<cr>", "Add File" },
