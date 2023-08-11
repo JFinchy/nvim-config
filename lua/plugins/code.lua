@@ -64,6 +64,12 @@ return {
     event = "VeryLazy",
     opts = {},
   },
+  {
+    "simrat39/symbols-outline.nvim",
+    cmd = "SymbolsOutline",
+    keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
+    config = true,
+  },
   { "JoosepAlviste/nvim-ts-context-commentstring", lazy = true },
   {
     "echasnovski/mini.comment",
