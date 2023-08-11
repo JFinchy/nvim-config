@@ -76,6 +76,18 @@ return {
     event = "VeryLazy",
   },
   {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    opts = {
+      keywords = {
+        jlg = { icon = "", color = "info", alt = { "Jlg", "JLG" } },
+        QUESTION = { color = "warning", alt = { "?" } },
+        REFACTOR = { color = "warning" },
+        RESEARCH = { color = "info" },
+      },
+    },
+  },
+  {
     "mvllow/modes.nvim",
     tag = "v0.2.0",
     config = function()

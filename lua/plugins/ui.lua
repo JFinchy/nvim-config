@@ -7,4 +7,5 @@ return {
       table.insert(opts.sections.lualine_x, "😄")
     end,
   },
+  { "nvim-tree/nvim-web-devicons" },
 }
