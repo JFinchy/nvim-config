@@ -80,6 +80,7 @@ return {
     dependencies = { "nvim-lua/plenary.nvim" },
     opts = {
       keywords = {
+        BL = { color = "info", alt = { "BUSLOGIC", "LOGIC", "BIZLOG" } },
         jlg = { icon = "", color = "info", alt = { "Jlg", "JLG" } },
         QUESTION = { color = "warning", alt = { "?" } },
         REFACTOR = { color = "warning" },
