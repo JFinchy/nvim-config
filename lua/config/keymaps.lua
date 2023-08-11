@@ -26,5 +26,5 @@ vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz", { desc = "which_key_ignore" })
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz", { desc = "which_key_ignore" })
 
-vim.keymap.set({ "n", "v", "i" }, "<D-s>", ":w")
-vim.keymap.set({ "n", "v", "i" }, "<cmd>w", ":q")
+-- vim.keymap.set({ "n", "v", "i" }, "<D-s>", ":w")
+-- vim.keymap.set({ "n", "v", "i" }, "<D-w>", ":q")
