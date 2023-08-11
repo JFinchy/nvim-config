@@ -6,4 +6,7 @@ wk.register({
     q = { ":TodoQuickFix", "Quick Fix" },
     t = { ":TodoTelescope", "Telescope" },
   },
+  m = {
+    name = "Marks",
+  },
 }, { prefix = "<leader>" })
