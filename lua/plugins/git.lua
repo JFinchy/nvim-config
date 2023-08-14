@@ -1,4 +1,5 @@
 return {
   { "sindrets/diffview.nvim" },
-  { "gitsigns" },
+  -- FIXME: { "gitsigns" },
+  { "tanvirtin/vgit.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
 }
